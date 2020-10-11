@@ -1,0 +1,98 @@
+/* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+/* 
+Color Scheme: 
+Rust #B56357
+Mint #B4DBC0
+Slate #EAE3EA
+Sea Foam #A7B3A5
+#f3e9dc !important; /* linen (light tan) color */
+body {
+  background: #f3e9dc !important;
+  color: hsl(0, 0%, 25%) !important;
+}
+h1 {
+  font-family: "Playfair Display", serif !important;
+  color: hsl(0, 0%, 25%) !important;
+}
+h5 {
+  font-family: "Playfair Display", serif !important;
+  color: hsl(0, 0%, 25%) !important;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+/* Styling for the Navigation Bar */
+nav {
+  background: white !important;
+  color: #3c3c3c !important;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar-toggler {
+  background-color: #f3e9dc !important;
+}
+/* End of styling for Navigation Bar */
+
+.container {
+  background: white !important; /* powder blue */
+}
+
+/* Styling for Portfolio Page */
+.card-header {
+  background: #f3e9dc;
+}
+/* Syling the Contact Form */
+form {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+}
+
+.btn-blue {
+  background-color: #8a9ea7;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.17rem;
+  border-radius: 0;
+}
+
+.btn-blue:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+/* Styling the footer */
+footer {
+  bottom: 0 !important;
+  width: 100%;
+  padding: 20px;
+  background: white;
+}
+
+/* Styling for linkedin and github links */
+.fa {
+  padding: 10px;
+  font-size: 12px;
+  width: 30px;
+  border-radius: 100px;
+}
+
+.fa:hover {
+  transform: scale(1.1);
+  color: white;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #444;
+  color: #fff;
+}

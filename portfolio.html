@@ -10,19 +10,33 @@
   <!-- Link to external Bootstrap stylesheet link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     crossorigin="anonymous" />
+
+  <!-- Link to google fonts text styling -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Link to social media icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Link to custom stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <span class="navbar-brand mb-0 h1">Kayla Muraoka</span>
+  <nav class="navbar navbar-expand-lg navbar-light mb-5">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo.jpg" width="200" height="auto" alt="Kayla Muraoka" loading="lazy">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link" href=" index.html">About</a>
         </li>
@@ -39,51 +53,199 @@
 
   <!-- Portfolio Section -->
   <!-- 5 images -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <h1>Portfolio</h1>
-        <hr>
+  <main class="mx-2">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Portfolio</h1>
+          <hr>
+        </div>
       </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header text-center">
+              <h5 class="card-title">Restaurant Recommender & Ethnic Food Diversity Index</h5>
+              <p class="font-italic mb-1">Written in python, January 2, 2018</p>
+            </div>
+            <img
+              src="https://raw.githubusercontent.com/kaylamuraoka/Using-Yelp-to-Study-Ethnic-Food-Scene-by-U.S.-Capital/master/Pie-Chart.png"
+              class="card-img-top mt-3" alt="Portfolio Image 2">
+            <div class="card-body">
+              <p class="card-text">In this project, I scraped Yelp restaurant data to investigate the food scene across
+                different U.S capitals. This
+                project helps us gain insight on geographic taste preferences through analyzing how different types of
+                food are consumed
+                across different places. This project compares the frequency of mexican, american, korean, japanese,
+                italian, chinese,
+                thai, mediterranean, indian, vietnamese, latin, french, filipino, greek, and hawaiian restaurants in the
+                users home
+                state. I created this code that ultimately prints a bar chart and pie chart to easily visualize this
+                data. This code
+                also recommends highly rated restaurant located in the user's home state.
+              </p>
+              <p>Skills Utilized:</p>
+              <ul>
+                <li>
+                  <p>Python libraries for data processing, modeling, and visualization, including - Pandas, Matplotlib,
+                    Seaborn</p>
+                </li>
+                <li>
+                  <p>Yelp API</p>
+                </li>
+              </ul>
+              <a href="https://github.com/kaylamuraoka/Using-Yelp-to-Study-Ethnic-Food-Scene-by-U.S.-Capital"
+                class="btn btn-blue" target="blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card">
+            <div class="card-header text-center">
+              <h5 class="card-title">Hypothetical Aquarium Database Management System</h5>
+              <p class="font-italic mb-1">MySQL Workbench, June 7, 2019</p>
+            </div>
+            <img src="./assets/images/Aquarium_ERD_Diagram_Placeholder.jpg" class="card-img-top mt-3"
+              alt="Portfolio Image 2">
+            <img src="./assets/images/Relational_Database_Schema_Placeholder.jpg" class="card-img-top mt-0"
+              alt="Portfolio Image 2.2">
+            <div class="card-body">
+              <p class="card-text">In this project, I developed a hypothetical database management system for an
+                Aquarium monitoring the health of the animals, staff members, the enclosures the animals live in, and
+                the services the staff members perform for the animals.
+              </p>
+              <p>Skills Utilized:</p>
+              <ul>
+                <li>
+                  <p>MySQL Workbench to query, design, and deploy the database</p>
+                </li>
+                <li>
+                  <p>MS Vsio to create an Entity Relationship diagram (ERD) with crows foot notation and Relational
+                    Database Schema</p>
+                </li>
+              </ul>
+              <a href="https://github.com/kaylamuraoka/Waikiki-Aquarium-Database" class="btn btn-blue"
+                target="blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 p-3">
+          <div class="card">
+            <div class="card-header text-center">
+              <h5 class="card-title">Creative Adobe Premiere Pro Video</h5>
+              <p class="font-italic mb-1">Edited in Adobe Premiere Pro 2019, December 12, 2018</p>
+            </div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxrT0zgOtgE" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen alt="Video">
+            </iframe>
+            <div class="card-body">
+              <p class="card-text">Edited a travel video of footage shot with my Go Pro in Japan.
+              </p>
+              <p>Skills Utilized:</p>
+              <ul>
+                <li>
+                  <p>Adobe Premiere Pro for video editing and production</p>
+                </li>
+              </ul>
+              <a href="https://www.youtube.com/embed/vxrT0zgOtgE" class="btn btn-blue" target="blank">View on
+                YouTube</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3">
+          <div class="card">
+            <div class="card-header text-center">
+              <h5 class="card-title">Creative Adobe Premiere Pro Video</h5>
+              <p class="font-italic mb-1">Edited in Adobe Premiere Pro 2019, December 12, 2018</p>
+            </div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxrT0zgOtgE" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen alt="Video">
+            </iframe>
+            <div class="card-body">
+              <p class="card-text">Edited a travel video of footage shot with my Go Pro in Japan.
+              </p>
+              <p>Skills Utilized:</p>
+              <ul>
+                <li>
+                  <p>Adobe Premiere Pro for video editing and production</p>
+                </li>
+              </ul>
+              <a href="https://www.youtube.com/embed/vxrT0zgOtgE" class="btn btn-blue" target="blank">View on
+                YouTube</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 p-3">
+          <div class="card">
+            <div class="card-header text-center">
+              <h5 class="card-title">Creative Adobe Premiere Pro Video</h5>
+              <p class="font-italic mb-1">Edited in Adobe Premiere Pro 2019, December 12, 2018</p>
+            </div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxrT0zgOtgE" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen alt="Video">
+            </iframe>
+            <div class="card-body">
+              <p class="card-text">Edited a travel video of footage shot with my Go Pro in Japan.
+              </p>
+              <p>Skills Utilized:</p>
+              <ul>
+                <li>
+                  <p>Adobe Premiere Pro for video editing and production</p>
+                </li>
+              </ul>
+              <a href="https://www.youtube.com/embed/vxrT0zgOtgE" class="btn btn-blue" target="blank">View on
+                YouTube</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 p-3">
+          <div class="card">
+            <div class="card-header text-center">
+              <h5 class="card-title">Creative Adobe Premiere Pro Video</h5>
+              <p class="font-italic mb-1">Edited in Adobe Premiere Pro 2019, December 12, 2018</p>
+            </div>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vxrT0zgOtgE" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen alt="Video">
+            </iframe>
+            <div class="card-body">
+              <p class="card-text">Edited a travel video of footage shot with my Go Pro in Japan.
+              </p>
+              <p>Skills Utilized:</p>
+              <ul>
+                <li>
+                  <p>Adobe Premiere Pro for video editing and production</p>
+                </li>
+              </ul>
+              <a href="https://www.youtube.com/embed/vxrT0zgOtgE" class="btn btn-blue" target="blank">View on
+                YouTube</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-
-    <div class="row">
-      <div class="col-lg-6">
-        <img class="img-fluid w-100 p-3" src="https://via.placeholder.com/350" alt="protfolio image 1" />
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid w-100 p-3" src="https://via.placeholder.com/350" alt="protfolio image 2" />
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-6">
-        <img class="img-fluid w-100 p-3" src="https://via.placeholder.com/350" alt="protfolio image 3" />
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid w-100 p-3" src="https://via.placeholder.com/350" alt="protfolio image 4" />
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-lg-6">
-        <img class="img-fluid w-100 p-3" src="https://via.placeholder.com/350" alt="protfolio image 5" />
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid w-100 p-3" src="https://via.placeholder.com/350" alt="protfolio image 6" />
-      </div>
-
-    </div>
-
-  </div>
-
+  </main>
 
   <!-- Footer -->
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Copyright</p>
-  </div>
+  <footer class="container-fluid text-center mt-5 p-6">
+    <a href="https://www.linkedin.com/in/kayla-muraoka-161ba6155/" class="fa fa-linkedin" target="_blank"></a>
+    <a href="https://github.com/kaylamuraoka" class="fa fa-github m-3" target="_blank"></a>
+    <p>© Copyright 2020 Kayla Muraoka</p>
+  </footer>
 
-  <!-- Optional JavaScript -->
+  <!-- Bootstrap JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

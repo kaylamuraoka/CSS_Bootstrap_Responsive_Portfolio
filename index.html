@@ -12,24 +12,36 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- Link to icons  -->
+  <!-- Link to google fonts text styling -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Oswald&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Link to social media icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Link to custom stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <span class="navbar-brand mb-0 h1">Kayla Muraoka</span>
+  <nav class="navbar navbar-expand-lg navbar-light mb-5">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="assets/images/logo.jpg" width="200" height="auto" alt="Kayla Muraoka" loading="lazy">
+    </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item active">
-          <a class="nav-link" href=" index.html">About <span class="sr-only">(current)</span></a>
+          <a class="nav-link " href=" index.html">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -43,34 +55,82 @@
   </nav>
 
   <!-- About Me Section -->
-  <div class="container">
-    <h1>About Me</h1>
-    <hr>
-    <div class="row">
-      <div class="col-md-12">
-        <!-- Responsive Image -->
-        <img class="pr-3 pb-2 pull-left" src="./assets/images/headshot.jpeg" alt="Profile Picture" width="200px" />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, vel, necessitatibus obcaecati, ullam
-          aperiam aspernatur distinctio recusandae maiores impedit minus id magni. Nam accusamus fugiat consectetur
-          iure, mollitia ullam repudiandae?
-        </p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio hic tempora qui laudantium blanditiis ea
-          quisquam quasi esse, debitis error molestias pariatur mollitia saepe repudiandae libero, dicta
-          necessitatibus
-          architecto porro!</p>
-      </div>
+  <main class="mx-2">
+    <div class="container p-4">
+      <h1>About Me</h1>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Responsive Image -->
+          <img class="pr-3 pb-2 float-left img-fluid" src="./assets/images/headshot.jpeg" alt="Profile Picture"
+            style="max-width: 55%; height: auto;" />
 
+          <p>My name is Kayla Muraoka, a senior at Santa Clara University, set to graduate
+            in August
+            2020 with a dual
+            degree
+            consisting of a BSc in Management Information Systems and BA in Japanese Studies. As someone having
+            experienced working
+            full time and studying in Japan, I am passionate about working for a multinational retail corporation with
+            close ties to
+            Japan.</p>
+          <p>
+            My technical Management Information Systems coursework has equipped me with a broad understanding of
+            business and the
+            computer applications needed to support business activities. I've attained the skills necessary to leverage
+            data,
+            discover market opportunities, and deliver business solutions. On the other hand, my Japanese studies
+            coursework,
+            including a semester spent abroad at Nanzan University in 2019, while also serving as a photo & social media
+            correspondent for IES has deepened my knowledge of Japanese culture and truly advanced my Japanese speaking,
+            listening,
+            reading, writing, and social skills.</p>
+
+          <p>As a recruiting intern at Optia Partners, an executive recruiting firm in Tokyo, I was directly
+            responsible
+            for sourcing
+            a candidate where the company was able to successfully introduce, resulting in a 27-thousand dollar sale. I
+            was awarded
+            the Optia Internship Award for the most sales pitch phone calls and appointments of all the interns, thus
+            proving my
+            ability to navigate linguistic barriers, and adapt to and overcome various cultural differences. I gained
+            professional
+            skills and industry exposure on a global level.</p>
+
+          <p>I am actively involved on the SCU campus as a member of the women's club ultimate frisbee team, Kappa Kappa
+            Gamma Eta Nu
+            chapter, Intramural basketball team, while maintaining a full course load as well as working part-time as a
+            sales
+            associate at Quay Australia, an optical retailer. My academic and extra-curricular activity schedule
+            confirms my work
+            ethic, competitive drive, ability to juggle multiple responsibilities and priorities, and work as a part of
+            a team. My
+            leadership experience as a student ambassador, camp counselor, silent auction lead for Relay for Life, and
+            group leader
+            for the YMCA, provides the skills to make me an asset to and thrive in a fast-paced commercial environment.
+          </p>
+
+          <p>I believe that my work ethic, positive attitude, and eagerness to learn from every experience combined with
+            my technical
+            skill-set, international experience, leadership experience, and communication skills make me a versatile
+            employee.
+          </p>
+        </div>
+
+      </div>
     </div>
-  </div>
-  </div>
+    </div>
+  </main>
 
   <!-- Footer -->
-  <div class="jumbotron text-center" style="margin-bottom:0">
-    <p>Copyright</p>
-  </div>
+  <footer class="container-fluid text-center mt-5 p-6">
+    <a href="https://www.linkedin.com/in/kayla-muraoka-161ba6155/" class="fa fa-linkedin" target="_blank"></a>
+    <a href="https://github.com/kaylamuraoka" class="fa fa-github m-3" target="_blank"></a>
+    <p>© Copyright 2020 Kayla Muraoka</p>
+  </footer>
 
 
-  <!-- Optional JavaScript -->
+  <!-- Bootstrap JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
