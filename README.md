@@ -19,15 +19,27 @@ To install this project locally clone this [**project repository**](https://gith
 
 My responsive portfolio website can be seen at: https://kaylamuraoka.github.io/CSS_Bootstrap_Responsive_Portfolio/
 
-The following images shows the web application's appearance and functionality when the screen is 992 pixels or greater:
-![Screenshop of Index Page](assets/images/992-index.png)
-![Screenshop of Portfolio Page](assets/images/992-portfolio.png)
-![Screenshop of Contact Page](assets/images/992-contact.png)
+My portfolio is responsive, meaning that the layout and content responds and adapts based on the size of screen in which it is presented on. See Examples Below:
 
-The following images shows the web application's appearance and functionality when the screen is at 400 pixels:
-![Screenshop of Index Page](assets/images/400-index.png)
-![Screenshop of Portfolio Page](assets/images/400-portfolio.png)
-![Screenshop of Contact Page](assets/images/400-contact.png)
+#### The following images shows the home page's appearance and functionality when the screen is 992 pixels or greater:
+
+|                Small devices (ex: Portrait phones (<544px)                |                   Large devices (ex: Desktops (≥992px)                    |
+| :-----------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
+| ![Screenshop of Index Page on small devices](assets/images/400-index.png) | ![Screenshop of Index Page on large devices](assets/images/992-index.png) |
+
+#### The following images shows the portfolio page's appearance and functionality when the screen is 992 pixels or greater:
+
+|                    Small devices (ex: Portrait phones (<544px)                    |                       Large devices (ex: Desktops (≥992px)                        |
+| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| ![Screenshop of Portfolio Page on small devices](assets/images/400-portfolio.png) | ![Screenshop of Portfolio Page on large devices](assets/images/992-portfolio.png) |
+
+#### The following images shows the contact page's appearance and functionality when the screen is 992 pixels or greater:
+
+| Small devices (ex: Portrait phones (<544px) | Large devices (ex: Desktops (≥992px) |
+| :-----------------------------------------: | :----------------------------------: |
+
+
+![Screenshop of Contact Page on small devices](assets/images/400-contact.png) | ![Screenshop of Contact Page on large devices](assets/images/992-contact.png)
 
 ## Credits
 
