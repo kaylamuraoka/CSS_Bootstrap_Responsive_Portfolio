@@ -35,11 +35,9 @@ My portfolio is responsive, meaning that the layout and content responds and ada
 
 #### The following images shows the contact page's appearance and functionality when the screen is 992 pixels or greater:
 
-| Small devices (ex: Portrait phones (<544px) | Large devices (ex: Desktops (≥992px) |
-| :-----------------------------------------: | :----------------------------------: |
-
-
-![Screenshop of Contact Page on small devices](assets/images/400-contact.png) | ![Screenshop of Contact Page on large devices](assets/images/992-contact.png)
+|                  Small devices (ex: Portrait phones (<544px)                  |                     Large devices (ex: Desktops (≥992px)                      |
+| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
+| ![Screenshop of Contact Page on small devices](assets/images/400-contact.png) | ![Screenshop of Contact Page on large devices](assets/images/992-contact.png) |
 
 ## Credits
 
