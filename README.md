@@ -1,4 +1,4 @@
-# CSS_Bootstrap_Responsive_Portfolio
+# Responsive Portfolio and Resume
 
 ## Description
 
