@@ -122,6 +122,8 @@ footer {
   margin-bottom: 10px;
 }
 
+/* Styling resume */
+
 /* Media queries for responsive font sizes*/
 
 @media (min-width: 200px) {
@@ -154,6 +156,9 @@ footer {
     float: none;
     width: 100%;
     margin-left: 0px;
+  }
+  .resume-iframe {
+    height: 500px;
   }
 }
 @media (min-width: 480px) {
@@ -189,6 +194,9 @@ footer {
     margin-left: 10px;
     margin-bottom: 10px;
   }
+  .resume-iframe {
+    height: 600px;
+  }
 }
 @media (min-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
@@ -216,6 +224,9 @@ footer {
   }
   .blog-img-float-right {
     width: 300px;
+  }
+  .resume-iframe {
+    height: 900px;
   }
 }
 @media (min-width: 801px) {
