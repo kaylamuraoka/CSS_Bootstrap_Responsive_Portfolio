@@ -10,14 +10,13 @@ body {
   background: #f3e9dc !important;
   color: hsl(0, 0%, 25%) !important;
 }
-h1 {
-  font-family: "Playfair Display", serif !important;
-  color: hsl(0, 0%, 25%) !important;
-}
+h1,
+h2,
 h5 {
   font-family: "Playfair Display", serif !important;
   color: hsl(0, 0%, 25%) !important;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -104,7 +103,6 @@ footer {
 
 .blog-post-title {
   margin-bottom: 0.25rem;
-  font-size: 2.5rem;
 }
 
 .blog-post-meta {
@@ -116,14 +114,12 @@ footer {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
-  width: 300px;
 }
 
 .blog-img-float-right {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
-  width: 300px;
 }
 
 /* Media queries for responsive font sizes*/
@@ -144,8 +140,20 @@ footer {
     font-size: 15px;
   }
   h5,
-  span {
+  span,
+  p,
+  .btn-blue {
     font-size: 12px;
+  }
+  .blog-img-float-left {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .blog-img-float-right {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
   }
 }
 @media (min-width: 480px) {
@@ -164,8 +172,22 @@ footer {
     font-size: 15px;
   }
   h5,
-  span {
+  span,
+  p,
+  .btn-blue {
     font-size: 12px;
+  }
+  .blog-img-float-left {
+    float: left;
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .blog-img-float-right {
+    float: right;
+    width: 250px;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 600px) {
@@ -184,8 +206,16 @@ footer {
     font-size: 17px;
   }
   h5,
-  span {
+  span,
+  p,
+  .btn-blue {
     font-size: 14px;
+  }
+  .blog-img-float-left {
+    width: 300px;
+  }
+  .blog-img-float-right {
+    width: 300px;
   }
 }
 @media (min-width: 801px) {
@@ -204,8 +234,16 @@ footer {
     font-size: 17px;
   }
   h5,
-  span {
+  span,
+  p,
+  .btn-blue {
     font-size: 14px;
+  }
+  .blog-img-float-left {
+    width: 380px;
+  }
+  .blog-img-float-right {
+    width: 380px;
   }
 }
 @media (min-width: 1025px) {
@@ -224,8 +262,16 @@ footer {
     font-size: 19px;
   }
   h5,
-  span {
+  span,
+  p,
+  .btn-blue {
     font-size: 15px;
+  }
+  .blog-img-float-left {
+    width: 410px;
+  }
+  .blog-img-float-right {
+    width: 410px;
   }
 }
 @media (min-width: 1281px) {
@@ -244,7 +290,15 @@ footer {
     font-size: 19px;
   }
   h5,
-  span {
+  span,
+  p,
+  .btn-blue {
     font-size: 18px;
+  }
+  .blog-img-float-left {
+    width: 450px;
+  }
+  .blog-img-float-right {
+    width: 450px;
   }
 }
