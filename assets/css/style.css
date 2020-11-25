@@ -97,6 +97,35 @@ footer {
   color: #fff;
 }
 
+/* styling Blog page */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+.blog-img-float-left {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.blog-img-float-right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
 /* Media queries for responsive font sizes*/
 
 @media (min-width: 200px) {
